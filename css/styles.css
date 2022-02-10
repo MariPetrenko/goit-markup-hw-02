@@ -1,5 +1,16 @@
+/*Основные правки для всей страницы*/
 .body {
   background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.list {
+  list-style: none;
 }
 
 /*шапка страницы*/
@@ -25,6 +36,13 @@
 /*Логотип страницы*/
 .logo-section {
   background-color: #2f303a;
+}
+.logo-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.logo-btn:hover,
+.logo-btn:focus {
 }
 
 /*Основная часть страници*/
@@ -52,3 +70,7 @@
   color: #ffffff;
   background: #2196f3;
 }
+
+/* шрифт 
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
