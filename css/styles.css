@@ -1,0 +1,54 @@
+.body {
+  background-color: #ffffff;
+}
+
+/*шапка страницы*/
+.page-header {
+  background-color: #ffffff;
+}
+.header-nav {
+  color: #212121;
+}
+.header-nav:hover,
+.header-nav:focus {
+  color: #2196f3;
+}
+
+.header-contact {
+  color: #757575;
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
+}
+
+/*Логотип страницы*/
+.logo-section {
+  background-color: #2f303a;
+}
+
+/*Основная часть страници*/
+
+/*Команда*/
+.team {
+  background-color: #f5f4fa;
+}
+
+/*Подвал*/
+.footer {
+  background-color: #2f303a;
+}
+
+/*Портфолио*/
+
+/*Кнопки фильтра*/
+
+.filtr-btn-name {
+  color: #212121;
+  background: #f5f4fa;
+}
+.filtr-btn-name:hover,
+.filtr-btn-name:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
