@@ -35,6 +35,7 @@
 
 .header-logo-accent {
   color: var(--accent-text-color-btn);
+  font-family: Raleway;
 }
 
 .header-nav {
@@ -156,6 +157,7 @@
 
 .footer-logo {
   color: var(--text-color-logo-adres-btn);
+  font-family: Raleway;
   font-size: 26px;
   font-weight: bold;
   text-decoration: none;
@@ -178,6 +180,7 @@
   cursor: default;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .footer-contact:hover,
@@ -208,7 +211,7 @@
   color: var(--titel-text-color);
   font-weight: bold;
   font-size: 18px;
-  line-height: 6;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .about-portfolio {
