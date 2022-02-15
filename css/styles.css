@@ -2,11 +2,15 @@
   --primery-text-color: #757575;
   --titel-text-color: #212121;
   --accent-text-color-btn: #2196f3;
+  --heder-logo-color: #000000;
 
   --main-background-color: #ffffff;
   --section-fond-color: #2f303a;
 
   --text-color-logo-adres-btn: #ffffff;
+
+  --filter-btn-tim-fon: #f5f4fa;
+  --logo-btn-hover: #188ce8;
 }
 
 /*Основные правки для всей страницы*/
@@ -15,7 +19,6 @@
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
   color: var(--primery-text-color);
 }
 
@@ -26,7 +29,8 @@
 /*шапка страницы*/
 
 .header-logo {
-  color: #000000;
+  font-family: Raleway;
+  color: var(--heder-logo-color);
   font-size: 26px;
   font-weight: bold;
   text-decoration: none;
@@ -36,7 +40,6 @@
 
 .header-logo-accent {
   color: var(--accent-text-color-btn);
-  font-family: Raleway;
 }
 
 .header-nav {
@@ -97,7 +100,7 @@
 }
 .logo-btn:hover,
 .logo-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--logo-btn-hover);
 }
 
 /*Основная часть страници*/
@@ -113,7 +116,6 @@
 .about-features {
   color: var(--primery-text-color);
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /*Примеры робот*/
@@ -122,18 +124,16 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
 }
 
 /*Команда*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--filter-btn-tim-fon);
 }
 
 .team-titel {
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
 }
 .team-titel,
 .titel {
@@ -144,28 +144,25 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 
 .team-position {
   color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 
 /*Подвал*/
 
 .footer-logo {
-  color: var(--text-color-logo-adres-btn);
   font-family: Raleway;
+  color: var(--text-color-logo-adres-btn);
   font-size: 26px;
   font-weight: bold;
   text-decoration: none;
   cursor: default;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .footer-logo-accent {
@@ -180,7 +177,6 @@
   text-decoration: none;
   cursor: default;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   font-style: normal;
 }
 
@@ -194,16 +190,15 @@
 /*Кнопки фильтра*/
 .filtr-btn {
   color: var(--titel-text-color);
-  background: #f5f4fa;
+  background: var(--filter-btn-tim-fon);
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 }
 .filtr-btn:hover,
 .filtr-btn:focus {
-  color: var(--text-color-logo-adres);
+  color: var(--text-color-logo-adres-btn);
   background: var(--accent-text-color-btn);
 }
 
@@ -219,7 +214,6 @@
   color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
 
 .portfolio-link {
