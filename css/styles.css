@@ -14,7 +14,7 @@
 }
 
 /*Основные правки для всей страницы*/
-.body {
+body {
   background-color: var(--main-background-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -109,6 +109,7 @@
 .titel {
   color: var(--titel-text-color);
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
